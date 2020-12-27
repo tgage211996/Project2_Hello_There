@@ -169,7 +169,7 @@ Step 9: Open the cloned project in IntelliJ from where you downloaded the projec
 Step 10: Click the import Maven Templat popup that will appear in the bottom right corner of the window or add the maven framework by right clicking on the project name in the file directory and click on "add framework support" and scroll through your given options until you see maven. Click the Maven option and then click the "Okay" button
 
 Step 11: IntelliJ will have a pop saying asking if it can run "npm install" to download the necessary files for the front end of the project, click yes.
->If there is no pop up appears then look at the botton of the Intellij window and look for the "Terminal" tab and click it. A terminal window should pop up and in the terminal >type "npm install" and the necessary files for the front end of the project will be isntalled.
+>If there is no pop then look at the botton of the Intellij window and look for the "Terminal" tab and click it. A terminal window should pop up and in the terminal type "npm >install" and the necessary files for the front end of the project will be isntalled.
         
 Step 11.a: Setup Tomcat in Intellij Ultimate
  - https://www.youtube.com/watch?v=_Uq2mn56SDs&ab_channel=HamzaMalik
