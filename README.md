@@ -93,10 +93,10 @@ Step 7: Setup an Acount with AWS and create a RDS instance
 - click the "create database" button that is orange and will be on the page you just arrived to
 - once you have options available, change the database "Engine Options" to PostgreSQL
 - Scroll down to the next section, "Template options", and select Free tier.
-- Scroll down to the next section, "Settings", and setup your master username and password (make sure to wright these down, for you will need them later).
+- Scroll down to the next section, "Settings", and setup your master username and password (make sure to wright these down, for you will need them later to setup database      connections).
 - Now click "create database" at the botton of the page to start the creation of your database.
 - Once your database has been created, go to the database dashboard and then click on the name of the database (The name of the databased should be under the database identifier   column
-- Underneath the first tab "Connectivity and Security" you should see your Database's endpoint that you need to writedown for later when we setup DBeaver in the next step.
+- Underneath the first tab "Connectivity and Security" you should see your Database's endpoint that you need to writedown for later when we setup database connections.
 
 Step 8: Download and Setup DBeaver
 - Download DBeaver from https://dbeaver.io/download/
@@ -166,7 +166,7 @@ Step 8: Download and Setup DBeaver
 
 Step 9: Open the cloned project in IntelliJ from where you downloaded the project
 
-Step 10: Click the import Maven Templat popup that will appear in the bottom right corner of the window or add the maven framework by right clicking on the project name in the file directory and selecting add frameworks support and scrolling through your given options and till you see maven. Click the Maven option and then click the "Okay" button
+Step 10: Click the import Maven Templat popup that will appear in the bottom right corner of the window or add the maven framework by right clicking on the project name in the file directory and click on "add framework support" and scroll through your given options until you see maven. Click the Maven option and then click the "Okay" button
 
 Step 11.a: Setup Tomcat in Intellij Ultimate
  - https://www.youtube.com/watch?v=_Uq2mn56SDs&ab_channel=HamzaMalik
