@@ -23,9 +23,9 @@ public class PersistenceConfig {
     public DataSource dataSource() {
         System.out.println("Setting up datasource");
         HikariDataSource ds = new HikariDataSource();
-        ds.setJdbcUrl("jdbc:postgresql://project2.cyrfeoigkzgl.us-east-1.rds.amazonaws.com:5432/postgres");
-        ds.setUsername("postgres");
-        ds.setPassword("p4sSw0rD");
+        ds.setJdbcUrl("jdbc:postgresql://endpoint/postgres");
+        ds.setUsername("username");
+        ds.setPassword("password");
         ds.setDriverClassName(Driver.class.getName());
         return ds;
     }
