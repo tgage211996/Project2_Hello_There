@@ -1,7 +1,7 @@
 # Project2_HelloThere
 
 ## Project Description
-This system allows for quick and effecient handling and viewing of expense reimbursement requests. Managers are able to view any submitted requests, and can filter those requests by a single employee or by pending status. Managers can also approve or deny any pending requests. Employees are able to submit new requests, and they are able to see the status of all of their previous requests.
+Hello There is a social media platform that allows for quick and efficient communication around the world. Users of Hello There are able to write posts, like posts, comment on posts, add friends, see what their friends are up to, and follow their favorite influencers as they share their stories with the world.
 
 ## Technologies Used
 * Java - version 1.8
@@ -168,6 +168,8 @@ Step 9: Open the cloned project in IntelliJ from where you downloaded the projec
 
 Step 10: Click the import Maven Templat popup that will appear in the bottom right corner of the window or add the maven framework by right clicking on the project name in the file directory and click on "add framework support" and scroll through your given options until you see maven. Click the Maven option and then click the "Okay" button
 
+Step 11: IntelliJ will have a pop saying asking if it can run "npm install" to download the necessary files for the front end of the project, click yes. If there is no pop up appears then look at the botton of the Intellij window and look for the "Terminal" tab and click it. A terminal window should pop up and in the terminal type "npm install" and the necessary files for the front end of the project will be isntalled.
+        
 Step 11.a: Setup Tomcat in Intellij Ultimate
  - https://www.youtube.com/watch?v=_Uq2mn56SDs&ab_channel=HamzaMalik
  
