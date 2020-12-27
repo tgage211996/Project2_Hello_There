@@ -175,7 +175,7 @@ Step 11.b: Setup Tomcat in Intellij community
  - https://www.youtube.com/watch?v=Sr9DqV3hZhA&ab_channel=LearningFromExperience
 
 Step 12: got to the resources folder underneath src/main/java/com/ex/config/ in the file called PersistenceConfig.java and provide the following and your database's credentials
-> ds.setJdbcUrl("jdbc:postgresql://endpoint/");
+> ds.setJdbcUrl("jdbc:postgresql://endpoint:5432/postgres");
 > ds.setUsername("username");
 > ds.setPassword("password");
 
